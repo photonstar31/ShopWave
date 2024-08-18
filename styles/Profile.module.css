@@ -1,0 +1,114 @@
+.profile {
+  margin-top: 60px;
+}
+
+.box {
+  border: 1px solid #eadfdf;
+  /* border-radius: 10px; */
+  border-radius: 10px 10px 40px 10px;
+  padding: 30px 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s;
+}
+
+/* /////////////////   user profile info */
+.userProfileInfo {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.profileDataField {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+.profileDataField > * {
+  display: inline-block;
+}
+
+.userInfoContainer {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  min-width: 395px;
+  position: relative;
+}
+.userInfoContainer > :not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.editIcon {
+  position: absolute;
+  top: -4%;
+  right: -4%;
+  width: 45px;
+  height: 45px;
+  border-radius: 500px;
+  /* background-image: linear-gradient(#3e3c3e, #222); */
+  background-image: linear-gradient(to right bottom, #ff86ba, #ff2683, #f0076b);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  z-index: 99999;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.editIcon:hover {
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.editIcon:active {
+  box-shadow: 0.5px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.userProfileInfoBtn {
+  text-align: end;
+}
+.userProfileInfoBtn > :first-child {
+  margin-right: 20px;
+}
+
+/*//////////////// user change password */
+
+.userOptionsContainer {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.changePasswordContainer {
+  text-align: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.changePasswordForm {
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.changePasswordForm > :not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.userOptionsBtnContainer {
+  /* margin-top: 50px; */
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.userOptionsBtnContainer > :not(:last-child) {
+  margin-bottom: 20px;
+}

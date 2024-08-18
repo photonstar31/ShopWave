@@ -1,0 +1,186 @@
+.nav {
+  width: 100%;
+}
+
+/* nav top container */
+.navTopContainer {
+  width: 100%;
+  background-color: #7e33e0;
+  max-height: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navTopLinksContainer {
+  width: 100%;
+  max-width: 1164px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.topNavLink {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: "16px";
+  font-weight: 600;
+  cursor: pointer;
+}
+.topNavLink:hover {
+  -webkit-text-decoration: underline 1px #f1f1f1;
+  text-decoration: underline 1px #f1f1f1;
+}
+
+.topNavLink > :first-child {
+  margin-right: 3px;
+}
+
+.cartContainer {
+  position: relative;
+}
+.cartItemLength {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -50%;
+  right: -70%;
+  border: 1px solid #f1f1f1;
+  border-radius: 8px;
+  color: #f1f1f1;
+  background-color: #fb2e86;
+}
+
+/* nav bottom container */
+
+.navBottomContainer {
+  background-color: #fff;
+  padding: 19px 0;
+}
+
+.navBottomInnerContainer {
+  max-width: 1164px;
+  max-height: 40px;
+  min-height: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBottomLinksContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 226px;
+}
+
+.navBottomLinksContainer > :not(:last-child) {
+  margin-right: 35px;
+}
+
+.navBottomForm {
+  max-width: 317px;
+  min-width: 317px;
+  max-height: 40px;
+  display: flex;
+}
+
+.navBottomInput {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #e7e6ef;
+  border-radius: 0;
+  padding: 0 5px;
+}
+
+.navBottomInput:focus {
+  outline: none;
+}
+
+/* /////////////////////////////////// media querys */
+
+@media only screen and (max-width: 1200px) {
+  .navTopLinksContainer {
+    margin-right: 50px;
+  }
+  .navBottomInnerContainer {
+    margin: 0 50px;
+  }
+  .navBottomInnerContainer h5 {
+    margin-right: 30px;
+  }
+  .navBottomLinksContainer {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .navBottomInnerContainer {
+    margin: auto 10px;
+  }
+  .navBottomInnerContainer h5 {
+    margin-right: 15px;
+  }
+  .navBottomForm {
+    max-width: 250px;
+    min-width: 250px;
+  }
+  .navBottomLinksContainer > :not(:last-child) {
+    margin-right: 25px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .navBottomForm {
+    max-width: 250px;
+    min-width: max-content;
+    position: relative;
+  }
+  .navBottomLinksContainer {
+    margin-right: 100px;
+  }
+  .navBottomInput {
+    width: 160px;
+    height: 30px;
+    position: absolute;
+    display: none;
+    right: -4px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 15px;
+    background-color: #fafafa;
+    color: #6c6c6c;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navTopLinksContainer {
+    margin-right: 20px;
+  }
+  .navBottomLinksContainer {
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navTopLinksContainer {
+    justify-content: space-around;
+    margin-right: 0;
+    margin: auto 10px;
+  }
+  .navBottomLinksContainer {
+    margin-right: 0;
+  }
+  .navBottomLinksContainer > :not(:last-child) {
+    margin-right: 20px;
+  }
+}

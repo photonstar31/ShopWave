@@ -1,0 +1,53 @@
+.wishlist {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.innerContainer {
+  max-width: 1000px;
+  padding: 50px;
+  margin: auto;
+}
+.innerContainer > :not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.wishlistProduct {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 6px;
+  /* cursor: pointer; */
+}
+
+.wishlistProductImage {
+  width: 100px;
+  height: 100px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.wishlistProductText {
+  display: flex;
+  flex-direction: column;
+}
+.wishlistProductText > :not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: center;
+}
+.priceContainer > :first-child {
+  margin-right: 10px;
+}
+
+.wishlistProductDeleteIcon {
+  position: absolute;
+  right: 0;
+  top: 5%;
+}

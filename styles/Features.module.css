@@ -1,0 +1,48 @@
+.featuresContainer {
+  max-width: 1164px;
+  margin: auto;
+}
+
+.feature {
+  max-width: 270px;
+  height: 320px;
+  box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+  transition: all 0.3s;
+}
+.feature:hover {
+  transform: translateY(5px);
+}
+.feature:hover .featureImage {
+  margin-top: 56px;
+  margin-bottom: 27px;
+}
+
+.featureImage {
+  margin-top: 61px;
+  margin-bottom: 22px;
+  width: 65px;
+  height: 65px;
+  transition: all 0.3s;
+}
+
+@media only screen and (max-width: 1200px) {
+  .featuresContainer {
+    display: grid;
+    justify-content: center;
+    row-gap: 48px;
+    grid-template-columns: repeat(2, 270px);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .featuresContainer {
+    grid-template-columns: 270px;
+  }
+  .feature:hover {
+    transform: none;
+  }
+  .feature:hover .featureImage {
+    margin-top: 61px;
+    margin-bottom: 22px;
+  }
+}

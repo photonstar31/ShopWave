@@ -1,0 +1,48 @@
+.orderConfirmed {
+  margin-top: 98px;
+  margin-bottom: 201px;
+}
+.innerContainer {
+  max-width: 1092px;
+  margin: auto;
+  border-left: 1px dashed #e5e5e5;
+  border-bottom: 1px dashed #e5e5e5;
+  position: relative;
+}
+.textContainer {
+  width: 625px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.checkMarkImg {
+  width: 87px;
+  height: 80px;
+  margin: auto;
+  margin-bottom: 22.5px;
+}
+.clockImg {
+  width: 94px;
+  height: 132px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: flex-end;
+  z-index: 999;
+  background-color: #fff;
+}
+.taskbookImg {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translateY(50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  z-index: 999;
+}

@@ -1,0 +1,96 @@
+.searchResult {
+  width: 921px;
+  height: 230px;
+  padding: 16px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all 0.35s;
+  cursor: pointer;
+}
+.searchResult:hover {
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.searchResult:hover .searchResultImage {
+  padding: 50px;
+  background: #ebf4f3;
+}
+
+.searchResultImage {
+  min-width: 284px;
+  max-width: 284px;
+  height: 197px;
+  margin-right: 28px;
+  background: #f6f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.35s;
+}
+.searchResultPriceRating {
+  margin-bottom: 10px;
+}
+.searchResultText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+.colorFulDotsContainer {
+  width: 43px;
+  height: 11px;
+  display: flex;
+  position: absolute;
+  top: 3px;
+  left: 210px;
+}
+.colorFulDotsContainer > :not(:last-child) {
+  margin-right: 5px;
+}
+.colorFulDotsContainer > :first-child {
+  background-color: #de9034;
+}
+.colorFulDotsContainer > :last-child {
+  background-color: #5e37ff;
+}
+.colorFulDot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #e60584;
+}
+
+.searchResultIconContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 131px;
+  height: 31px;
+}
+
+.searchResultIconContainer span {
+  width: 31px;
+  height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchResultIconContainer span svg {
+  width: 16px;
+  height: 16px;
+}
+.searchResultIconContainer svg > * {
+  fill: #535399;
+}
+
+/* ////////////////// media queries */
+
+@media only screen and (max-width: 1000px) {
+  .searchResult {
+    width: 95vw;
+  }
+}

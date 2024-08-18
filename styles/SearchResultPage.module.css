@@ -1,0 +1,98 @@
+.searchControlInfoContainer {
+  margin-top: 60px;
+}
+.searchControlInfoInnerContainer {
+  max-width: 1000px;
+  height: 44px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchControlSortDropdown {
+  border: 1px solid #e7e6ef;
+  display: flex;
+  align-items: center;
+  padding: 5px 11px;
+}
+.input {
+  text-align: center;
+  color: #8a8fb9;
+  border: 1px solid #e7e6ef;
+}
+.input:focus {
+  outline: none;
+}
+
+.displayflex {
+  display: flex;
+  align-items: center;
+}
+
+.searchControlViewIconContainer {
+  margin-left: 4px;
+  margin-right: 27px;
+  display: flex;
+  align-items: center;
+}
+.searchControlViewIconContainer > :first-child {
+  margin-right: 5px;
+}
+.searchControlViewIconContainer > * {
+  cursor: pointer;
+}
+
+.lintText {
+  font-family: "Josefin Sans";
+  color: #575757;
+  font-weight: 300;
+  text-transform: none;
+}
+
+/* search result container */
+
+.searchResultsContainer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 100px; */
+  padding-bottom: 152px;
+  position: relative;
+  -moz-column-gap: 35px;
+  column-gap: 35px;
+}
+.searchResultSideFilterBar {
+  width: 205px;
+}
+.searchResultsInnerContainer {
+  max-width: 921px;
+}
+
+.ratingContainer {
+  margin-top: 44px;
+}
+
+/*/////////////////////////// paginaiton */
+
+.paginationContainer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pagination li {
+  margin-right: 0.5rem;
+}
+.pagination button {
+  border-radius: 50%;
+}
+
+/*///////// media queries  */
+
+@media only screen and (max-width: 1000px) {
+  .searchControlInfoInnerContainer {
+    max-width: 95vw;
+  }
+}

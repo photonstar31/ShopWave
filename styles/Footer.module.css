@@ -1,0 +1,77 @@
+.footer {
+  background-color: #eeeffb;
+  margin-top: 86px;
+}
+
+.footerTopContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 94px;
+  padding-bottom: 100px;
+}
+
+.contactContainer {
+  max-width: 401px;
+  margin-right: 72px;
+}
+
+.form {
+  max-width: 377px;
+  width: 377px;
+  height: 44px;
+  padding: 3px 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  background-color: #fff;
+}
+
+.footerLinkContainer {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footerLinkContainer > :not(:last-child) {
+  margin-bottom: 21px;
+}
+
+.footerLinkContainer0,
+.footerLinkContainer1 {
+  margin-right: 88px;
+}
+
+.footerBottomContainer {
+  max-height: 53px;
+  background-color: #e7e4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 0;
+}
+
+.footerIconsContainer {
+  max-width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerIconsContainer > :not(:last-child) {
+  margin-right: 10.87px;
+}
+
+.icon {
+  width: 19.42px;
+  height: 19.42px;
+  border-radius: 500px;
+  background-color: #151875;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

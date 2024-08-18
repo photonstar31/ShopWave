@@ -1,0 +1,9 @@
+.products {
+  margin-top: 90px;
+  margin-bottom: 85px;
+}
+
+.productsContainer {
+  max-width: 1240px;
+  margin: auto;
+}

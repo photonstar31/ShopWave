@@ -1,0 +1,139 @@
+.specificProduct {
+  margin-top: 90px;
+  margin-bottom: 65px;
+}
+
+.specificProductInnerContainer {
+  max-width: 1170px;
+  height: 509px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 14px;
+  margin: auto;
+  box-shadow: 0px 0px 25px 10px #f6f4fd;
+  border-radius: 2px;
+}
+
+.specificProductImagesContainer {
+  width: 500px;
+  padding: 20px;
+  margin-right: 42px;
+}
+
+.specificProductTextContainer {
+  max-width: 549px;
+}
+
+.specificProductStarContainer {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.specificProductPriceContainer {
+  display: flex;
+}
+.specificProductPriceContainer > :first-child {
+  margin-right: 18px;
+}
+
+.addToCartContainer {
+  margin-top: 34px;
+  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+}
+.addToCartContainer > :first-child {
+  margin-right: 20px;
+}
+.heartSvg {
+  width: 31px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heartSvg svg {
+  width: 20px; /* width: 15px */
+  height: 20px; /* height: 15px */
+  cursor: pointer;
+}
+.heartSvg svg * {
+  fill: #fb2e86;
+}
+.heartSvg svg:hover {
+  -webkit-animation: popup 0.7s ease-in infinite;
+  animation: popup 0.7s ease-in infinite;
+}
+
+.specificProductShareContainer {
+  display: flex;
+  align-items: center;
+}
+.specificProductShareContainer > :last-child {
+  margin-right: 0;
+}
+.shareIcon {
+  width: 16px;
+  height: 16px;
+  padding: 3px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #151875;
+  border-radius: 50%;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.shareIcon:hover {
+  background-color: #fb2e86;
+}
+
+/*////////////////////////////////////// Product Details ///////////////////////// */
+.productDetails {
+  background-color: #f9f8fe;
+  text-align: start;
+  padding: 110px 0 122px 0;
+  margin-top: 66px;
+}
+.productDetailsInnerContainer {
+  max-width: 1195px;
+  margin: auto;
+}
+.productDetailsLinkContainer {
+  display: flex;
+  align-items: center;
+}
+.productDetailsLinkContainer > :not(:last-child) {
+  margin-right: 85px;
+}
+
+.productDetailsInformationContainer {
+  margin-top: 57px;
+}
+.productDetailsInformation {
+  text-transform: capitalize;
+}
+.productDetailsFeatureContainer > :not(:last-child) {
+  margin-bottom: 14px;
+}
+.productDetailsFeature {
+  display: flex;
+  align-items: center;
+}
+.productDetailsIcon {
+  margin-right: 8px;
+}
+
+@-webkit-keyframes popup {
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+@keyframes popup {
+  50% {
+    transform: scale(1.08);
+  }
+}

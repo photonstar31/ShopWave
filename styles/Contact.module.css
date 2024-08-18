@@ -1,0 +1,215 @@
+.contact {
+  margin-top: 70px;
+  margin-bottom: 106px;
+  /* margin-bottom: 85px; */
+}
+
+.textContainer {
+  max-width: 1190px;
+  margin: auto;
+}
+
+/*////////////////////// infromation about us */
+
+.infoAboutUs {
+  max-width: 550px;
+}
+
+.infoCircleContainer {
+  width: 103px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.circle {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  background-color: #5625df;
+}
+.pink {
+  background-color: #ff27b7;
+}
+.skyBlue {
+  background-color: #37daf3;
+}
+
+/* ////////////////////////// contact way */
+
+.contactWay {
+  max-width: 490px;
+}
+.contactWayInfo {
+  width: 490px;
+  margin-top: 26px;
+}
+.contactWayInfo_LeftSide > :first-child,
+.contactWayInfo_RightSide > :first-child {
+  margin-bottom: 48px;
+}
+
+.contactWayInfo_ball {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 500px;
+  margin-right: 15px;
+}
+.blueBall {
+  background-color: #5726df;
+}
+.yellowBall {
+  background-color: #ffb265;
+}
+.pinkBall {
+  background-color: #fb2e86;
+}
+.greenBall {
+  background-color: #1be982;
+}
+
+.contactWayInfo_container {
+  display: flex;
+  align-items: center;
+}
+
+/*///////////////////////////// contact Info */
+
+.contactInfo {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 120px;
+}
+
+.getInTouch {
+  max-width: 550px;
+}
+
+.form {
+  width: 534px;
+  margin-top: 48px;
+}
+
+.displayFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactInfoImageContainer {
+  width: 630px;
+  height: 630px;
+}
+
+/*////////////////////// media queries */
+
+@media only screen and (max-width: 1300px) {
+  .contactInfoImageContainer {
+    width: 600px;
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .contact h3 {
+    text-decoration: underline;
+  }
+  .textContainer {
+    max-width: 550px;
+    text-align: center;
+    justify-content: center;
+  }
+  .infoAboutUs {
+    max-width: 550px;
+    margin-bottom: 110px;
+  }
+  .infoCircleContainer {
+    margin: auto;
+  }
+  .contactWay {
+    max-width: 550px;
+    margin: auto;
+  }
+  .contactWayInfo {
+    width: 500px;
+    text-align: start;
+  }
+
+  .contactInfo {
+    margin-top: 110px;
+    max-width: 550px;
+    justify-content: center;
+  }
+  .getInTouch {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+  }
+  .form {
+    max-width: 550px;
+    text-align: center;
+    margin: auto;
+    margin-top: 48px;
+  }
+  .contactInfoImageContainer {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .textContainer {
+    max-width: 95%;
+  }
+  .infoAboutUs {
+    max-width: 100%;
+  }
+  .contactWay {
+    width: 100%;
+  }
+  .contactWayInfo {
+    width: max-content;
+    margin: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 26px;
+  }
+  .contactWayInfo > :first-child {
+    margin-bottom: 48px;
+  }
+
+  .contactInfo {
+    max-width: 95%;
+  }
+  .getInTouch {
+    width: 100%;
+  }
+  .displayFlex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .displayFlex > :first-child {
+    margin-bottom: 2rem;
+  }
+  .form {
+    width: 95%;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    padding: 25px 20px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.04);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contactInfo {
+    max-width: 99%;
+  }
+  .form {
+    padding: 0;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+  }
+}
